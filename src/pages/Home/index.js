@@ -11,8 +11,8 @@ import { removeAccents, replaceHyphens } from '../../services/validations';
 
 const Home = () => {
     const [keyword, setKeyword] = useState('');
-    const [ pushLocation] = useLocation();
-    //    console.log(path, pushLocation);
+    const [path, pushLocation] = useLocation();
+      console.log(path);
     const { loading, gifs } = useGifs(null, 10);
 
     const handleSubmit = (e) => {
