@@ -1,0 +1,14 @@
+.detail {
+  max-width: 300px;
+  margin: 2rem auto;
+}
+.detail .item h4 {
+  background-color: transparent;
+  color: black !important;
+  margin: 1rem auto;
+}
+
+.detail .item {
+  text-decoration: none;
+  cursor: none;
+}
